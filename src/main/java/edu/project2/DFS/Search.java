@@ -8,7 +8,7 @@ import java.util.List;
 public class Search {
     private int width;
     private int height;
-    boolean[][] isVisited;
+    public boolean[][] isVisited;
     protected List<Edge> adjLists;
 
     public Search(int width, int height, List<Edge> adjLists) {

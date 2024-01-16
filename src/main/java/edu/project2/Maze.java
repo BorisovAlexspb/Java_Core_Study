@@ -22,8 +22,8 @@ public class Maze {
     protected Random random = null;
     protected Scanner sc;
     protected List<Edge> adjlists = new ArrayList<>();
-    protected int w = 0;
-    protected int h = 0;
+    public int w = 0;
+    public int h = 0;
     protected int[][] grid = null;
 
     // Define class methods
